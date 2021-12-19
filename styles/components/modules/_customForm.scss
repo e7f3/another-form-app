@@ -1,0 +1,35 @@
+// Стили модуля CustomForm
+
+.custom-form {
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  gap: 20px;
+}
+
+.custom-form__form {
+  display: grid;
+  grid-template-columns: minmax(500px, 1fr);
+  gap: 10px;
+}
+
+.custom-form__form > .select {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.custom-form__form > .checkbox {
+  margin-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-form__total {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-form__submit-button {
+  margin: 0 auto;
+}

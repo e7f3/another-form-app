@@ -1,0 +1,26 @@
+// Стили FormPage
+
+.form-page {
+  height: 100vh;
+}
+
+.form-page__inner {
+  height: 100%;
+}
+
+.form-page__custom-form {
+  display: flex;
+}
+
+.form-page__show-popup {
+  height: 100%;
+}
+
+.form-page__popup {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
